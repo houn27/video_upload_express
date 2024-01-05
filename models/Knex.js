@@ -2,8 +2,8 @@ const knex=require('knex')({
     client:'mysql',
     connection:{
         host:'127.0.0.1',
-        user:'root',
-        password:'199511hu',
+        user:'root',   
+        password:'', // your mysql password
         database:'db_video'
     }
 })
